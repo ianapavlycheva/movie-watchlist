@@ -1,4 +1,8 @@
-require("dotenv").config();
+function handleClick() {
+  fetch(`https://www.omdbapi.com/?i=tt3896198&apikey=1601530`)
+    .then((res) => res.json())
+    .then((data) => console.log(data))
+    .catch((err) => console.error("Error:", err));
+}
 
-const apiKey = process.env.API_KEY;
-console.log(apiKey);
+document.getElementById("btn").addEventListener("click", handleClick);
