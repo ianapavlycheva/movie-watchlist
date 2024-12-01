@@ -11,37 +11,41 @@
     <title>Movie Watchlist</title>
   </head>
   <body>
-    <nav>
-      <h1>Find your film</h1>
-      <a href=".\watchlist.html">My Watchlist</a>
-    </nav>
-    <div class="search-container">
-      <input type="text" class="search-input" placeholder="Search" />
-      <button class="search-btn">Search</button>
-    </div>
-    <div>
-      <button id="btn">New movie</button>
-    </div>
-    <div id="movies">
-      <div class="movie-slot">
-        <img
-          src="https://m.media-amazon.com/images/M/MV5BNWE5MGI3MDctMmU5Ni00YzI2LWEzMTQtZGIyZDA5MzQzNDBhXkEyXkFqcGc@._V1_SX300.jpg"
-        />
-        <div id="movie-details">
-          <h2>Guardians of the Galaxy Vol. 2</h2>
-          <span>7.6</span>
-          <span>136 min</span>
-          <span>Action, Adventure, Comedy</span>
-          <button class="add-btn">
-            <img src="./images/add.png" alt="Add to Watchlist" class="icon" />
-            <span>Watchlist</span>
-          </button>
-
-          <p>
-            The Guardians struggle to keep together as a team while dealing with
-            their personal family issues, notably Star-Lord's encounter with his
-            father, the ambitious celestial being Ego.
-          </p>
+    <div id="display">
+      <nav>
+        <h1>Find your film</h1>
+        <a href=".\watchlist.html">My Watchlist</a>
+      </nav>
+      <div class="search-container">
+        <input type="text" class="search-input" placeholder="Search" />
+        <button class="search-btn">Search</button>
+      </div>
+      <div>
+        <button id="btn">New movie</button>
+      </div>
+      <div id="movies">
+        <div class="movie-slot">
+          <img
+            src="https://m.media-amazon.com/images/M/MV5BNWE5MGI3MDctMmU5Ni00YzI2LWEzMTQtZGIyZDA5MzQzNDBhXkEyXkFqcGc@._V1_SX300.jpg"
+          />
+          <div id="movie-description">
+            <h2>Guardians of the Galaxy Vol. 2</h2>
+            <img id="star" src="./images/star.png" />
+            <span>7.6</span>
+            <div id="movie-details">
+              <span>136 min</span>
+              <span>Action, Adventure, Comedy</span>
+              <button class="add-btn">
+                <img src="./images/add.png" alt="Add to Watchlist" />
+                <span>Watchlist</span>
+              </button>
+            </div>
+            <p>
+              The Guardians struggle to keep together as a team while dealing
+              with their personal family issues, notably Star-Lord's encounter
+              with his father, the ambitious celestial being Ego.
+            </p>
+          </div>
         </div>
       </div>
     </div>
