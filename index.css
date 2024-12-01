@@ -70,3 +70,60 @@ nav a {
 .search-btn:hover {
   background-color: #3d3d3d;
 }
+
+.movie-slot {
+  color: #ffffff;
+  padding: 30px 40px;
+  display: flex;
+}
+
+#movie-details {
+  margin-left: 20px;
+}
+
+.movie-slot img {
+  width: 100px;
+}
+
+.movie-slot h2 {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.movie-slot span {
+  font-size: 12px;
+}
+
+.add-btn {
+  all: unset;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  background-color: transparent;
+  border: none;
+  border-radius: 50%;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.add-btn:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+  transform: scale(1.1);
+}
+
+.add-btn:active {
+  transform: scale(0.95);
+}
+
+.add-btn img {
+  margin: 0;
+  padding: 0;
+  width: 16px;
+  height: 16px;
+  object-fit: contain;
+}
+
+.movie-slot p {
+  color: #a5a5a5;
+  font-size: 14px;
+}
