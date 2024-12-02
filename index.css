@@ -40,7 +40,7 @@ nav a {
   font-weight: bold;
 }
 
-.search-container {
+#search-container {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -49,7 +49,7 @@ nav a {
   max-width: 500px;
 }
 
-.search-input {
+#search-input {
   background-color: #2e2e2f;
   flex: 1;
   padding: 10px 15px;
@@ -59,11 +59,11 @@ nav a {
   outline: none;
 }
 
-.search-input:focus {
+#search-input:focus {
   border-color: #3d3d3d;
 }
 
-.search-btn {
+#search-btn {
   padding: 10px 35px;
   background-color: #4b4b4b;
   color: #ffffff;
@@ -74,7 +74,7 @@ nav a {
   transition: background-color 0.3s ease;
 }
 
-.search-btn:hover {
+#search-btn:hover {
   background-color: #3d3d3d;
 }
 
